@@ -22,7 +22,7 @@ import java.util.Date;
 import kotlinx.android.parcel.Parcelize;
 
 /**
- * Created by Dhanmeet on 11/08/23.
+ * Created by Dhanmeet on 22/08/23.
  */
 // Table for storing user Info
 @Entity(tableName = "User", indices = @Index(value = {"id"}, unique = true))
